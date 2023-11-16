@@ -1,0 +1,33 @@
+.title {
+  margin-bottom: 1.5rem;
+  p {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  h1 {
+    margin-bottom: 0.3rem;
+  }
+}
+
+.contacts-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#contacts {
+  h2 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+}
+
+.country-flag {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: flex-start;
+  gap: 5px;
+}
