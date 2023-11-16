@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -14,11 +13,13 @@
 
   </head>
   <body>
-
+    <pre>
+      {{ site.github }}
+    </pre>
     <div class="wrapper">
       <header>
 
-        {% if site.github.owner_gravatar_url %}
+        {% if site.github %}
           <img style="margin-bottom: 30px; border: 4px solid #f6f6f6; box-shadow: 4px;" src="{{ site.github.owner_gravatar_url | relative_url}}" alt="Logo" />
         {% endif %}
         <i class="fa fa-github fa-fw"></i>
@@ -30,6 +31,7 @@
             <i class="icon-social-linkedin"></i><a target="_blank" rel="noopener" href="{{ site.linkedin}}">Linkedin</a>
             <i class="icon-location-pin"></i><span class="country-flag">Based in Brazil :brazil:</span>
           </div>
+
         </div>
         {{ site.github.owner.email}}
         {% if site.show_downloads %}
