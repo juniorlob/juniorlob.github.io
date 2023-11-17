@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% if site.github.owner_gravatar_url %}
+    <link rel="icon" type="image/x-icon" href="{{ site.github.owner_gravatar_url }}">
+    {% endif %}
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}<!DOCTYPE html>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+
+        {% if site.github %}
+          <img class="owner-avatar" src="{{ site.github.owner_gravatar_url | relative_url}}" alt="Logo" />
+        {% endif %}
+        <i class="fa fa-github fa-fw"></i>
+
+        <div id="contacts">
+          <h2>Contact</h2>
+          <div class="contacts-section">
+            <i class="icon-envelope"></i><a target="_blank" rel="noopener" href="mailto:{{  site.github.owner.email }}">{{  site.github.owner.email }}</a>
+            <i class="icon-social-linkedin"></i><a target="_blank" rel="noopener" href="{{ site.linkedin}}">Linkedin</a>
+            <i class="icon-location-pin"></i><span class="country-flag">Based in Brazil :brazil:</span>
+          </div>
+
+        </div>
+
+        {% if site.show_downloads %}
+        <ul class="downloads">
+          <li><a target="_blank" rel="noopener" href="/assets/doc/Jair-Raiol-Lobo-Junior-EN-US.pdf">Dowload <strong>as PDF</strong></a></li>
+        </ul>
+        {% endif %}
+      </header>
+      <section>
+      <div class="title">
+        <h1>{{ site.github.owner.name }}</h1>
+        <p>{{ site.data.data.professional_title }}</p>
+      </div>
+
+      {{ content }}
+
+      </section>
+      <footer>
+        {% if site.github.is_project_page %}
+        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        {% if site.github.is_user_page %}
+        {% endif %}
+
+
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
