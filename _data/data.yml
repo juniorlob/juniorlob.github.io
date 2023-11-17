@@ -175,19 +175,19 @@ education:
     degree: Graduation
     institution: '**UNAMA**(University of Amazon)'
     period: (2014 - 2018)
-    status: Finished
+    status: Completed
   - course: Epic React by Kent C. Dodds
     degree: Course
     institution: '**EpicReact.dev**'
     period: 14/06/2023
-    status: Finished
+    status: Completed
   - course: Testing JavaScript with Kent C. Dodds
     degree: Course
     period: 05/09/2023
     institution: '**testingjavascript.com**'
-    status: Finished
+    status: Completed
   - course: Ignite ReactJS
     degree: Course
     period: 28/11/2021
     institution: '**RocketSeat**'
-    status: Finished
+    status: Completed
