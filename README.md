@@ -19,4 +19,4 @@ I'm deeply passionate about creating and shaping new concepts. My enthusiasm lie
 
 ---
 
-ℹ️ [See more about my career](https://juniorlob.github.io)
+ℹ️ [See more about me](https://juniorlob.github.io)
