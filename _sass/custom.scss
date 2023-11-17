@@ -18,6 +18,7 @@
 }
 
 #contacts {
+  grid-area: contacts;
   h2 {
     margin-bottom: 10px;
     font-weight: 400;
@@ -33,7 +34,6 @@
 }
 
 .owner-avatar {
-  margin-bottom: 30px;
-  border: 4px solid #f6f6f6;
-  box-shadow: 4px;
+  grid-area: avatar;
+  border: 4px solid var(--pre-border-color);
 }
