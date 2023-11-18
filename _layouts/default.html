@@ -61,8 +61,9 @@
           {% endfor %}
         </div>
         {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">{{ i18n_config.footer.view_github_profile }}</a></p>
+        <a href="{{ site.github.owner_url }}">{{ i18n_config.footer.view_github_profile }}</a>
         {% endif %}
+
         <div class="theme-creator-credit">
           {{ i18n_config.footer.hosted_on_github_pages | markdownify }}
         </div>
