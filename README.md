@@ -13,7 +13,7 @@ I'm deeply passionate about creating and shaping new concepts. My enthusiasm lie
 
 ## Get in touch :mailbox:
 
-* LinkedIn: <https://linkedin.com/in/piecioshka/>
+* LinkedIn: <https://linkedin.com/in/juniorlobo/>
 * Email: <jairraiollobo@gmail.com>
 * Instagram: <https://www.instagram.com/junior.lobo/>
 
