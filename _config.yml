@@ -6,8 +6,13 @@ show_downloads: 'true'
 google_analytics:
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
+exclude: ["LICENSE.txt", "README.md"]
+baseurl: ""
+permalink: /:title/
+languages: ['en', 'pt']
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-- jemoji
-- jekyll-multiple-languages-plugin
-
+   - jekyll-remote-theme # add this line to the plugins list if you already have one
+   - jemoji
+   - jekyll-multiple-languages-plugin
+default_lang: "en"
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
