@@ -6,9 +6,9 @@
 {{ data.description }}
 ---
 
-## Experience
+## {{ data.experience.title }}
 
-{% for experience in data.experience %}
+{% for experience in data.experience.list %}
 
 ### {{ experience.professional_title }}
 
@@ -43,12 +43,12 @@
 
 {% endfor %}
 
-## Technologies
-{% include_relative technologies.md %}
+## {{ data.technologies.title }}
+{% include technologies.md %}
 
-## Education and Certificates
+## {{ data.education.title }}
 
-{% for education in data.education %}
+{% for education in data.education.list %}
   {{ education.institution }} - {{ education.period }} \
   {{ education.course }} - {{ education.degree }} | {{ education.status }}
 {% endfor %}

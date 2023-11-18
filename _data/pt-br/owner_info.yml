@@ -1,193 +1,221 @@
 title: Sobre mim
 description: |
-  I am a Software Engineer specialist in web solutions development. With over 5 years of engagement in JavaScript and its surrounding technologies, including React/Next.js and TypeScript, I have a track record of delivering products that meet clients' strategic goals.
+  Sou um Engenheiro de Software especializado no desenvolvimento de soluções web. Com mais de 5 anos de envolvimento em JavaScript e suas tecnologias adjacentes, incluindo React/Next.js e TypeScript, tenho um histórico de entrega de produtos que atendem aos objetivos estratégicos dos clientes.
 
-  My expertise extends beyond coding; I’m skilled at collaboratively working with cross-functional teams to analyze challenges from both a technical and product perspective.
+  Minha habilidades não se limitam apenas à codificação; sou hábil em trabalhar de forma colaborativa com equipes multifuncionais para analisar desafios tanto do ponto de vista técnico quanto de produto.
 
-  With a stringent focus on effective team processes and excellent communication practices, I am continually seeking to expand my skill set by adopting new technologies, tools, and frameworks to enhance product experiences and add business value.
+  Com um foco rigoroso em processos eficazes de equipe e excelentes práticas de comunicação estou continuamente buscando expandir meu conjunto de habilidades, adotando novas tecnologias, ferramentas e frameworks para aprimorar a experiência nos produtos e agregar valor aos negócios.
 
 
-professional_title: Front-end Software Engineer
+professional_title: Engenheiro Frontend/Desenvolvedor Web
 experience:
-  - professional_title: Front-end Software Engineer
-    company: ImpetusKey
-    company_url: https://www.linkedin.com/company/impetuskey/
-    period: Jan 2023 - Present
-    description: |
-      At ImpetusKey as a Front-end Software Engineer I was able to collaborate with some companies where I was part of an extended team.
-    internal_experiences:
-      - title: Specialty Pharmacy Technology Platform
-        technologies:
-          - React.js
-          - Redux
-          - Material-UI
-          - Chart.js
-          - Redux Saga
-          - Storybook
-          - Jest
-          - TypeScript
-          - Webpack
-        description: |
-          I was able to contribute over the course of nearly a year, helping to reduce technical debt, improve scalability, and maintainability through best practices.
-          My most notable contribution in this project was the implementation of a workflow aimed at patients or their caregivers, which optimized the therapy tracking process. This workflow enabled patients to carry out essential tasks for successful treatment, contributing to a significant reduction in patient contacts related to issues during the therapy process.
-      - title: AI-powered Project Management Platform
-        technologies:
-          - React.js
-          - Webpack
-          - Redux
-          - Redux Toolkit
-          - React Router
-          - Ant Design
-          - Jest
-          - Cypress
-        description: |
-          An advanced platform for Project Management, which utilizes Artificial Intelligence technology to act as an essential component in the software development cycle. As an integral part of the development team, I played a significant role in implementing the “Epics” feature, a characteristic comparable to established systems like Jira, but with a more streamlined scope.
-          Next to the release date, we identified the need for a user interface overhaul. The task of updating the UI was assigned to the sub-team under my leadership, where I was able to implement significant improvements that enhanced the platform’s usability and aesthetics.
-  - professional_title: Front-end Software Engineer
-    company: Jungle Devs
-    company_url: https://jungledevs.com/
-    period: Nov 2021 - Jun 2022
-    technologies:
-      - React.js
-      - Webpack
-      - Redux
-      - Redux Toolkit
-      - React Router
-      - Ant Design
-      - Jest
-      - Cypress
-    description: |
-      Through Olby (formerly Jungle Devs), I worked for a company that oers a comprehensive software solution for gyms, covering billing, class scheduling, reporting, white-label apps, marketing automation, and lead management with a complete set of on-demand and live-streamed digital content. One of the solutions is the Embed Widget, a highly customizable product designed to integrate with any website.
+  title: Experiência
+  list:
+    - professional_title: Engenheiro de Software Frontend Pleno
+      company: ImpetusKey
+      company_url: https://www.linkedin.com/company/impetuskey/
+      period: Jan 2023 - Present
+      description: |
+        Na Impetus Key como Engenheiro de Software Frontend, tive a oportunidade de colaborar com duas empresas onde fiz parte de um time estendido.
+      internal_experiences:
+        - title: Plataforma de tecnologia de farmácia especializada
+          technologies:
+            - React.js
+            - Redux
+            - Material-UI
+            - Chart.js
+            - Redux Saga
+            - Storybook
+            - Jest
+            - TypeScript
+            - Webpack
+          description: |
+            Pude contribuir ao longo de quase um ano ajudando a reduzir débitos técnicos, melhorar a escalabilidade e a manutenibilidade através de boas práticas.\
+            Minha contribuição mais notável neste projeto foi a implementação de um fluxo destinado a pacientes ou seus responsáveis, que otimizou o processo de acompanhamento de terapia. O fluxo permitiu aos pacientes realizar tarefas essenciais para o sucesso do tratamento, contribuindo para uma redução significativa nos contatos de pacientes relacionados a problemas durante o processo de terapia.
+        - title: Plataforma de gerenciamento de projetos com tecnologia de IA
+          technologies:
+            - React.js
+            - Webpack
+            - Redux
+            - Redux Toolkit
+            - React Router
+            - Ant Design
+            - Jest
+            - Cypress
+          description: |
+            Uma plataforma avançada para Gerenciamento de Projetos, a qual utiliza tecnologia de Inteligência Artificial para atuar como um componente essencial no ciclo de desenvolvimento de software.\
+            Tive um papel significativo na implementação da funcionalidade de "Épicos", uma feature similar a do Jira em um escopo de menor escala. \
+            À medida que o projeto se aproximava da fase de lançamento, identificamos a necessidade de uma reformulação da interface do usuário. A tarefa de atualização da UI foi designada para a sub equipe sob minha liderança, onde consegui implementar melhorias significativas que elevaram a experiência e a estética da plataforma.
+    - professional_title: Engenheiro de Software Frontend Pleno
+      company: Hapana
+      company_url: https://hapana.com/
+      period: Jun 2022 - Ago 2022
+      technologies:
+        - Monorepo
+        - Micro-frontend
+        - ReactJS
+        - React Hook Forms
+        - SlateJS, ContextAPI
+        - Storybooks
+        - React Testing Library
+        - Jest, GraphQL
+        - React Query
+        - Material UI
+        - SWC
+        - Webpack
+        - Shadow DOM
+      description: |
+        Nesse projeto, foi construído um Monorepo com Micro-frontend usando Yarn Workspaces, Webpack e SWC para a substituição das dashboards através de uma migração gradual para uma arquitetura com React e Shadow DOM. Optamos por seguir com a Shadow DOM para implementar novas features substituindo gradualmente a estrutura legada, portanto enfrentamos outros desafios, como fontes não compatíveis com ele, incompatibilidade com bibliotecas third-party, entre outros detalhes. A escolha da abordagem foi importante porque após poucos meses várias features foram implementadas em produção com sucesso iniciando o processo de migração em um prazo curto garantindo um desenvolvimento gradual permitindo a equipe seguir padrões de qualidade com entregas contínuas.
+    - professional_title: Engenheiro de Software Frontend Pleno
+      company: Jungle Devs
+      company_url: https://jungledevs.com/
+      period: Nov 2021 - Jun 2022
+      technologies:
+        - React.js
+        - Webpack
+        - Redux
+        - Redux Toolkit
+        - React Router
+        - Ant Design
+        - Jest
+        - Cypress
+      description: |
+        Através da Olby(antiga Jungle Devs) trabalhei para uma empresa que é uma solução completa de software para academias com faturamento, agendamento de aulas, relatórios, aplicativos white label, automação de marketing e gerenciamento de leads com um conjunto de conteúdo digital híbrido completo on demand e transmissão ao vivo.
 
-      This product contains a digital content library widget that had an exponential performance issue with the amount of available content. I was able to assist the team by virtualizing all the content, making the application fast regardless of the number of videos listed. This was a complex issue the team was grappling with, and achieving such a performance improvement required extensive planning and discussion about the existing systems. This application was already live in production with a large user base, so everyone on the team had to stay well-aligned with a clear understanding of the consequences of any changes at all times to prevent production breakdowns. Communication with the team and the client was key to achieving this outcome.
-  - professional_title: Full-Stack Software Engineer
-    company: WBusiness
-    company_url: https://www.linkedin.com/company/agenciawbusiness/
-    period: Jul 2019 - Oct 2021
-    technologies:
-      - Redux.js
-      - Front-End Development
-      - JavaScript
-      - React.js
-      - Next.js
-      - PHP
-      - WordPress
-      - Git
-      - TypeScript
-      - Search Engine Optimization (SEO)
-    description: |
-      At WBusiness, a company specializing in Digital Marketing, I played a pivotal role in the successful launch of multiple websites. My responsibilities encompassed crafting custom themes to meet clients' unique needs, extending WordPress capabilities, improving website performance, and translating complex designs from Figma and Adobe XD into functional websites.
+        Uma das soluções é o Embed Widget, que é um produto altamente personalizável projetado para se integrar a qualquer site. Este produto contém um widget de biblioteca de conteúdo digital que apresentou um problema de desempenho exponencial com a quantidade de conteúdo disponível. Pude ajudar a equipe virtualizando todo o conteúdo, tornando a aplicação rápida independente da quantidade de vídeos listados. Este era um problema complexo com o qual a equipe estava lidando e para alcançar tal melhoria de desempenho foi necessário planejar e discutir longamente sobre os sistemas já implantados. Este aplicativo já estava rodando em produção com uma grande base de usuários, então todos da equipe tinham que se manter bem alinhados com uma visão clara das consequências das mudanças em todos os momentos para evitar quebras em produção. A comunicação com a equipe e com o cliente foram fundamentais para chegar a esse resultado.
+    - professional_title: Engenheiro de Software Full-Stack
+      company: WBusiness
+      company_url: https://www.linkedin.com/company/agenciawbusiness/
+      period: Jul 2019 - Out 2021
+      technologies:
+        - Redux.js
+        - JavaScript
+        - React.js
+        - Next.js
+        - PHP
+        - WordPress
+        - Git
+        - TypeScript
+        - Search Engine Optimization (SEO)
+      description: |
+        Na WBusiness, uma empresa especializada em Marketing Digital, desempenhei um papel fundamental no sucesso do lançamento de vários sites. Minhas responsabilidades abrangeram a criação de temas personalizados para atender às necessidades exclusivas dos clientes, expandindo as capacidades do WordPress, melhorando o desempenho dos sites e traduzindo designs complexos do Figma e Adobe XD em sites funcionais.
 
-      In addition, I was tasked with ensuring eective data migrations, minimizing site disruptions, and actively participated in constructive code reviews, fostering team work quality.
+        Além disso, fui encarregado de garantir migrações de dados eficazes, evitando interrupções nos sites, e contribuí ativamente em revisões de código construtivas, promovendo a qualidade do trabalho em equipe.
 
-      My commitment to continuous learning has enabled me to stay abreast of industry advancements, mastering essential skills.
-  - professional_title: Frontend Software Engineer
-    company: Appgami
-    period: Jun 2018 - Oct 2021
-    technologies:
-      - Monday and Azure SDK
-      - Cloud Firestore
-      - Firebase
-      - Styled Components
-      - React Testing Library
-    description: |
-      Retrospectives ([Monday marketplace](https://monday.com/marketplace/84) and [Visual Studio marketplace](https://marketplace.visualstudio.com/items?itemName=appgami.appgami-retrospectives)) is a versatile application for agile teams to run real-time remote retrospective sessions.
+        Meu compromisso com o aprendizado contínuo me permitiu manter-me atualizado com os avanços da indústria, dominando habilidades essenciais.
+    - professional_title: Engenheiro de Software Frontend Freelancer
+      company: Appgami
+      period: Jun 2018 - Out 2021
+      technologies:
+        - Monday e Azure SDK
+        - Cloud Firestore
+        - Firebase
+        - Styled Components
+        - React Testing Library
+      description: |
+        Em meu papel como Engenheiro de Software, desempenhei um papel crucial no projeto Retrospectives ([Monday marketplace](https://monday.com/marketplace/84) e [Visual Studio marketplace](https://marketplace.visualstudio.com/items?itemName=appgami.appgami-retrospectives)) , onde desenvolvemos um aplicativo versátil para equipes ágeis realizarem sessões de retrospectiva remotas em tempo real.
 
-      In this project, the challenges were numerous, the application is available in the Azure DevOps and Monday marketplaces, and the application flow and components must work for all services. The application renders the status of retrospectives and the entire state in real-time with remote participants present on the board. We also had the need to ensure backward compatibility and support at least two themes per marketplace.
+        Para garantir o funcionamento de todos os serviços, adotamos uma abordagem centralizada de desenvolvimento, mantendo uma única base de código. Além disso, implementamos testes rigorosos em todas as fases do desenvolvimento.
 
-      All these challenges brought complexity to this project. The team consisted of 2 frontend developers. With complex rules and a small team, I was very active in defining the technologies, libraries, and project architecture. Overall, it was a great opportunity to participate in the conception and entire process of setup and deployment in production.
-  - professional_title: IT Infrastructure Analyst
-    company: WLan Systems
-    company_url: https://wlanfibra.com.br/
-    period: Jun 2018 - Oct 2021
-    technologies:
-      - VMware ESXi
-      - Linux
-      - Ubiquiti AirCRM
-      - PHP
-      - Html
-      - Css
-      - jQuery
-      - JS
-    description: |
-      As an Intern for IT Infrastructure Analyst, I gained hands-on experience in various areas related to information technology infrastructure. This included managing a VMware ESXi server, providing support for Linux servers, optimizing networks, and configuring Ubiquiti AirCRM.
+        Também foi necessário assegurar a compatibilidade com versões anteriores e criar pelo menos dois temas por marketplace. Esses desafios adicionaram complexidade ao projeto, desempenhei um papel ativo na definição das tecnologias, bibliotecas e arquitetura do projeto.
 
-      After completing my internship in 2016, I continued in a full-time role. In this capacity, I led projects to redesign web interfaces for multiple services, managed servers, optimized Linux systems, and enhanced network infrastructure, including cache management.
+        No geral, minha contribuição neste projeto representou uma valiosa experiência em concepção, desenvolvimento e implantação de software em produção, demonstrando minha habilidade em enfrentar desafios complexos e garantir resultados de alta qualidade.
+    - professional_title: Analista de Sistemas
+      company: WLan Systems
+      company_url: https://wlanfibra.com.br/
+      period: Abr 2018 - Jan 2018
+      technologies:
+        - VMware ESXi
+        - Linux
+        - Ubiquiti AirCRM
+        - PHP
+        - Html
+        - Css
+        - jQuery
+        - JS
+      description: |
+        Durante o período de estágio, atuei como Estagiário como Analista de Infraestrutura de TI, onde adquiri experiência prática em várias áreas relacionadas à infraestrutura de tecnologia da informação. Isso incluiu a gestão de um servidor VMware ESXi, suporte a servidores Linux, otimização de redes e configuração do Ubiquiti AirCRM.
 
-      These combined experiences have provided me with a robust skill set in areas such as virtualization, server management, full-stack development, DevOps, and systems administration across dierent platforms.
+        Após o estágio em 2016 continuei em tempo integral. Nessa função, liderei projetos de reestruturação de interfaces web para vários serviços, gerenciei servidores, otimizei sistemas Linux e aprimorei a infraestrutura de rede, incluindo cache management.
+
+        Essas experiências combinadas me proporcionaram um conjunto sólido de habilidades em áreas como virtualização, gerenciamento de servidores, desenvolvimento full-stack, DevOps e administração de sistemas em diferentes plataformas.
 technologies:
-  - name: React.js
-    type: framework
-    experience_years: over 5 years of experience
-  - name: PHP
-    type: language
-    experience_years: over 5 years of experience
-  - name: GraphQL
-    type: library
-    experience_years: less than 2 years of experience
-  - name: Redux
-    type: library
-    experience_years: over 4 years of experience
-  - name: Microfrontend
-    type: architecture
-    experience_years: 1 year of experience
-  - name: Monorepo
-    type: architecture
-    experience_years: 1 year of experience
-  - name: Redux Saga
-    type: library
-    experience_years: over 4 years of experience
-  - name: Jest
-    type: testing_framework
-    experience_years: over 2 years of experience
-  - name: TypeScript
-    type: language
-    experience_years: over 3 years of experience
-  - name: Webpack
-    type: bundler
-    experience_years: less than 2 years of experience
-  - name: Next.js
-    type: framework
-    experience_years: over 3 years of experience
-  - name: WordPress
-    type: CMS
-    experience_years: over 3 years of experience
-  - name: Git
-    type: version_control
-    experience_years: over 4 years of experience
-  - name: SEO(Search Engine Optimization)
-    type: skill
-    experience_years: over 3 years of experience
-  - name: Linux
-    type: operating_system
-    experience_years: over 8 years of experience
-  - name: Firebase
-    type: database
-    experience_years: less than 2 years of experience
-  - name: React Testing Library
-    type: testing_framework
-    experience_years: less than 3 years of experience
-  - name: Docker
-    type: platform
-    experience_years: over 3 of experience
+  title: Tecnologias
+  list:
+    - name: React.js
+      type: framework
+      experience_years: mais de 5 anos de experiencia
+    - name: PHP
+      type: language
+      experience_years: mais de 5 anos de experiencia
+    - name: GraphQL
+      type: library
+      experience_years: cerca de 2 anos de experiencia
+    - name: Redux
+      type: library
+      experience_years: mais de 4 anos de experiencia
+    - name: Microfrontend
+      type: architecture
+      experience_years: 1 ano de experiencia
+    - name: Monorepo
+      type: architecture
+      experience_years: 1 ano de experiencia
+    - name: Redux Saga
+      type: library
+      experience_years: mais de 4 anos de experiencia
+    - name: Jest
+      type: testing_framework
+      experience_years: mais de 2 anos de experiencia
+    - name: TypeScript
+      type: language
+      experience_years: mais de 3 anos de experiencia
+    - name: Webpack
+      type: bundler
+      experience_years: mais de 2 anos de experiencia
+    - name: Next.js
+      type: framework
+      experience_years: mais de 3 anos de experiencia
+    - name: WordPress
+      type: CMS
+      experience_years: mais de 3 anos de experiencia
+    - name: Git
+      type: version_control
+      experience_years: mais de 4 anos de experiencia
+    - name: SEO(Search Engine Optimization)
+      type: skill
+      experience_years: mais de 3 anos de experiencia
+    - name: Linux
+      type: operating_system
+      experience_years: mais de 8 anos de experiencia
+    - name: Firebase
+      type: database
+      experience_years: cerca de 2 anos de experiencia
+    - name: React Testing Library
+      type: testing_framework
+      experience_years: cerca de 3 anos de experiencia
+    - name: Docker
+      type: platform
+      experience_years: cerca de 3 anos de experiencia
 education:
-  - course: System Analysis and Development
-    degree: Graduation
-    institution: '**UNAMA**(University of Amazon)'
-    period: (2014 - 2018)
-    status: Completed
-  - course: Epic React by Kent C. Dodds
-    degree: Course
-    institution: '**EpicReact.dev**'
-    period: 14/06/2023
-    status: Completed
-  - course: Testing JavaScript with Kent C. Dodds
-    degree: Course
-    period: 05/09/2023
-    institution: '**testingjavascript.com**'
-    status: Completed
-  - course: Ignite ReactJS
-    degree: Course
-    period: 28/11/2021
-    institution: '**RocketSeat**'
-    status: Completed
+  title: Educação e Certificações
+  list:
+    - course: Análise e Desenvolvimento de Sistemas
+      degree: Graduação
+      institution: '**UNAMA**(Universidade da Amazônia)'
+      period: (2014 - 2018)
+      status: Concluído
+    - course: Epic React by Kent C. Dodds
+      degree: Curso
+      institution: '**EpicReact.dev**'
+      period: 14/06/2023
+      status: Concluído
+    - course: Testing JavaScript with Kent C. Dodds
+      degree: Curso
+      period: 05/09/2023
+      institution: '**testingjavascript.com**'
+      status: Concluido
+    - course: Ignite ReactJS
+      degree: Curso
+      period: 28/11/2021
+      institution: '**RocketSeat**'
+      status: Concluído

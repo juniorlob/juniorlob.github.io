@@ -1,0 +1,17 @@
+lang: "pt-BR"
+header:
+  title: "Entre em contato"
+  email: "E-mail"
+  linkedin: "Linkedin"
+  location: "Brasil"
+  download_as_pdf: "Baixar como **PDF**"
+
+footer:
+  view_github_profile: "Veja meu perfil no GitHub"
+  hosted_on_github_pages: "Hospedado no GitHub Pages Tema por [orderedlist](https://github.com/orderedlist)"
+  language_switch: "**Português :brazil:** "
+
+general_info:
+  technologies: "Tecnologias"
+  technology: "Tecnologia"
+  years_of_experience: "Anos de Experiencia"

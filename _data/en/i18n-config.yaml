@@ -1,0 +1,17 @@
+lang: "en-US"
+header:
+  title: "Get in touch"
+  email: "Email"
+  linkedin: "Linkedin"
+  location: "Brazil"
+  download_as_pdf: "Download **as PDF**"
+
+footer:
+  view_github_profile: "View My GitHub Profile"
+  hosted_on_github_pages: "Hosted on GitHub Pages Theme by [orderedlist](https://github.com/orderedlist)"
+  language_switch: "**English :us:**"
+
+general_info:
+  technologies: "Technologies"
+  technology: "Technology"
+  years_of_experience: "Years of Experience"
