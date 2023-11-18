@@ -1,8 +1,7 @@
 ---
 layout: default
-lang: en
 ---
 
-{%- assign data =  site.data[page.lang] %}
+{%- assign data =  site.data[site.default_lang].owner_info %}
 
 {% include content.md %}
