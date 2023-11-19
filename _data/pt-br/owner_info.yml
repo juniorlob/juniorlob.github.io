@@ -1,17 +1,17 @@
 title: Sobre mim
 description: |
-  Sou um Desenvolvedor Frontend especializado no desenvolvimento de soluções web. Com mais de 5 anos de envolvimento em JavaScript e suas tecnologias adjacentes, incluindo React/Next.js e TypeScript, tenho um histórico de entrega de produtos que atendem aos objetivos estratégicos dos clientes.
+  Sou um Desenvolvedor Front End especializado no desenvolvimento de soluções web. Com mais de 5 anos de envolvimento em JavaScript e suas tecnologias adjacentes, incluindo React/Next.js e TypeScript, tenho um histórico de entrega de produtos que atendem aos objetivos estratégicos dos clientes.
 
   Minha habilidades não se limitam apenas à codificação; sou hábil em trabalhar de forma colaborativa com equipes multifuncionais para analisar desafios tanto do ponto de vista técnico quanto de produto.
 
   Com um foco rigoroso em processos eficazes de equipe e excelentes práticas de comunicação estou continuamente buscando expandir meu conjunto de habilidades, adotando novas tecnologias, ferramentas e frameworks para aprimorar a experiência nos produtos e agregar valor aos negócios.
 
 
-professional_title: Desenvolvedor Frontend/Web
+professional_title: Desenvolvedor Front End/Web
 experience:
   title: Experiência
   list:
-    - professional_title: Desenvolvedor Frontend Pleno
+    - professional_title: Desenvolvedor Front End Pleno
       company: ImpetusKey
       company_url: https://www.linkedin.com/company/impetuskey/
       period: Jan 2023 - Present
@@ -46,7 +46,7 @@ experience:
             Uma plataforma avançada para Gerenciamento de Projetos, a qual utiliza tecnologia de Inteligência Artificial para atuar como um componente essencial no ciclo de desenvolvimento de software.\
             Tive um papel significativo na implementação da funcionalidade de "Épicos", uma feature similar a do Jira em um escopo de menor escala. \
             À medida que o projeto se aproximava da fase de lançamento, identificamos a necessidade de uma reformulação da interface do usuário. A tarefa de atualização da UI foi designada para a sub equipe sob minha liderança, onde consegui implementar melhorias significativas que elevaram a experiência e a estética da plataforma.
-    - professional_title: Desenvolvedor Frontend Pleno
+    - professional_title: Desenvolvedor Front End Pleno
       company: Hapana
       company_url: https://hapana.com/
       period: Jun 2022 - Ago 2022
@@ -66,7 +66,7 @@ experience:
         - Shadow DOM
       description: |
         Nesse projeto, foi construído um Monorepo com Micro-frontend usando Yarn Workspaces, Webpack e SWC para a substituição das dashboards através de uma migração gradual para uma arquitetura com React e Shadow DOM. Optamos por seguir com a Shadow DOM para implementar novas features substituindo gradualmente a estrutura legada, portanto enfrentamos outros desafios, como fontes não compatíveis com ele, incompatibilidade com bibliotecas third-party, entre outros detalhes. A escolha da abordagem foi importante porque após poucos meses várias features foram implementadas em produção com sucesso iniciando o processo de migração em um prazo curto garantindo um desenvolvimento gradual permitindo a equipe seguir padrões de qualidade com entregas contínuas.
-    - professional_title: Desenvolvedor Frontend Pleno
+    - professional_title: Desenvolvedor Front End Pleno
       company: Jungle Devs
       company_url: https://jungledevs.com/
       period: Nov 2021 - Jun 2022
@@ -103,7 +103,7 @@ experience:
         Além disso, fui encarregado de garantir migrações de dados eficazes, evitando interrupções nos sites, e contribuí ativamente em revisões de código construtivas, promovendo a qualidade do trabalho em equipe.
 
         Meu compromisso com o aprendizado contínuo me permitiu manter-me atualizado com os avanços da indústria, dominando habilidades essenciais.
-    - professional_title: Desenvolvedor Frontend Freelancer
+    - professional_title: Desenvolvedor Front End Freelancer
       company: Appgami
       period: Jun 2018 - Out 2021
       technologies:
@@ -113,7 +113,7 @@ experience:
         - Styled Components
         - React Testing Library
       description: |
-        Em meu papel como Desenvolvedor Frontend, desempenhei um papel crucial no projeto Retrospectives ([Monday marketplace](https://monday.com/marketplace/84) e [Visual Studio marketplace](https://marketplace.visualstudio.com/items?itemName=appgami.appgami-retrospectives)) , onde desenvolvemos um aplicativo versátil para equipes ágeis realizarem sessões de retrospectiva remotas em tempo real.
+        Em meu papel como Desenvolvedor Front End, desempenhei um papel crucial no projeto Retrospectives ([Monday marketplace](https://monday.com/marketplace/84) e [Visual Studio marketplace](https://marketplace.visualstudio.com/items?itemName=appgami.appgami-retrospectives)) , onde desenvolvemos um aplicativo versátil para equipes ágeis realizarem sessões de retrospectiva remotas em tempo real.
 
         Para garantir o funcionamento de todos os serviços, adotamos uma abordagem centralizada de desenvolvimento, mantendo uma única base de código. Além disso, implementamos testes rigorosos em todas as fases do desenvolvimento.
 

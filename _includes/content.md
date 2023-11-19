@@ -12,7 +12,12 @@
 
 ### {{ experience.professional_title }}
 
+{% if experience.company_url %}
 ### [{{ experience.company }}]({{ experience.company_url }}) - ({{ experience.period }})
+  {% else %}
+### {{ experience.company }} - ({{ experience.period }})
+
+{% endif %}
 
 {% if experience.technologies %}
   **Technologies:** {{experience.technologies | join: ', '}}
