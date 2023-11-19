@@ -8,7 +8,9 @@ header:
 
 footer:
   view_github_profile: "View My GitHub Profile"
-  hosted_on_github_pages: "Hosted on GitHub Pages Theme by [orderedlist](https://github.com/orderedlist)"
+  hosted_on_github_pages: |
+     Hosted on GitHub Pages \
+     Theme by [orderedlist](https://github.com/orderedlist)
   language_switch: "**English :us:**"
 
 general_info:

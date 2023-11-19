@@ -40,7 +40,7 @@
       <section>
       <div class="title">
         <h1>{{ site.github.owner.name }}</h1>
-        <p>{{ site.data.[current_lang].owner_info.professional_title }}</p>
+        <p>{{ site.data[current_lang].owner_info.professional_title }}</p>
       </div>
       {{ content }}
       </section>
@@ -55,7 +55,7 @@
             {%- endif -%}
             <a class="link-button" href="{{ permalink }}">
               <button>
-                {{ site.data.[lang].i18n-config.footer.language_switch | markdownify }}
+                {{ site.data[lang].i18n-config.footer.language_switch | markdownify }}
               </button>
             </a>
           {% endfor %}
