@@ -27,9 +27,9 @@
           <div id="contacts">
             <h2>{{ i18n_config.header.title }}</h2>
             <div class="contacts-section">
-              <i class="icon-envelope"></i><a target="_blank" rel="noopener" href="mailto:{{  site.github.owner.email }}">{{  site.github.owner.email }}</a>
-              <i class="icon-social-linkedin"></i><a target="_blank" rel="noopener" href="{{ site.linkedin}}">{{ i18n_config.header.linkedin }}</a>
-              <i class="icon-location-pin"></i><span class="country-flag">{{ i18n_config.header.location }} - {{ site.github.owner.location }}</span>
+              :email: <a target="_blank" rel="noopener" href="mailto:{{  site.github.owner.email }}">{{  site.github.owner.email }}</a>
+              :briefcase:<a target="_blank" rel="noopener" href="{{ site.linkedin}}">{{ i18n_config.header.linkedin }}</a>
+              :pushpin:<span class="country-flag">{{ i18n_config.header.location }} - {{ site.github.owner.location }}</span>
             </div>
           </div>
           {% if site.show_downloads %}
@@ -63,7 +63,6 @@
         {% if site.github.is_user_page %}
         <a href="{{ site.github.owner_url }}">{{ i18n_config.footer.view_github_profile }}</a>
         {% endif %}
-
         <div class="theme-creator-credit">
           {{ i18n_config.footer.hosted_on_github_pages | markdownify }}
         </div>
